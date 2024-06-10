@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: #333;
+    color: white;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax1 {
+    background-image: url("stranger\ things\ 1.jpg");
+}
+
+.parallax2 {
+    background-image: url("Stranger-Things2.jpg");
+}
+
+.parallax3 {
+    background-image: url("stranger\ things3.jpg");
+}
+
+.parallax4 {
+    background-image: url("stranger\ thing4.jpg");
+}
+
+.parallax5 {
+    background-image: url("stranger\ thinngs\ 5.jpg");
+}
+
+.parallax6 {
+    background-image: url("stranger\ thing6.jpg");
+}
+
+.parallax7 {
+    background-image: url("stranger\ things\ 7.jpg");
+}
