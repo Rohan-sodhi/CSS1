@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+    font-size: 80px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    text-decoration: overline;
+}
+p {
+    color: red;
+    font-size: 50px;
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+h2 {
+    color: red;
+    font-size: 50px;
+    text-decoration: underline dotted;
+    text-transform: uppercase;
+}
+h3 {
+    color: red;
+    font-size: 50px;
+    text-decoration: underline double ;
+    text-transform: capitalize;
+}
+h4 {
+    color: red;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-shadow: 10px 20px 8px blue;
+}

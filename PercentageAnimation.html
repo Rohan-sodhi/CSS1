@@ -1,0 +1,53 @@
+<!--It is Used for Multiple Points-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            /*short hand 1 animation-name, 2 animation-duration, 
+            3 animation-delay, 4 animation-iteration-count, 5 animation-direction*/
+            animation: demo 10s 3s infinite alternate;
+            position: relative;
+        }
+        @keyframes demo { 
+            0% {
+                top: 0px;
+                left: 0px;
+                background-color: yellow;
+            }
+            25% {
+                top: 0px;
+                left: 500px;
+                background-color: blue;
+            }
+            50% {
+                top: 400px;
+                left: 500px;
+                background-color: blueviolet;
+                width: 120px;
+            }
+            75% {
+                top: 400px;
+                left: 0px;
+                background-color: green;
+                width: 100px;
+            }
+            100% {
+                top: 0px;
+                left: 0px;
+                background-color: chocolate;
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+</body>
+</html>

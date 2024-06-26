@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+        .div1:hover {
+            background-color: yellow;
+        }
+        p:first-child {
+            color: blue;
+        }
+        p:nth-child(3) {
+            color: aquamarine
+        }
+        li::marker {
+            color: red;
+        }
+        .p1::selection {
+            background-color: green;
+        }
+        .p1::first-letter {
+            font-size: 40px;
+        }
+        .p1::first-line {
+            color: blue;
+        }
+        input::placeholder {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input[type="email"] {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+        <p>Para 3</p>
+        <p>Para 4</p>
+        <p>Para 5</p>
+    </div>
+    <div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+        <p>Para 3</p>
+        <p>Para 4</p>
+        <p>Para 5</p>
+    </div>
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>List 5</li>
+    </ul>
+    <p class="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo saepe incidunt odit tenetur a voluptate enim voluptates? Cum error optio quasi quo in temporibus nemo tempore incidunt, asperiores earum? Corporis cumque aut iure culpa? Eaque laboriosam fugit culpa illum vero id tempora ex illo, sequi voluptas eveniet voluptatum magnam blanditiis.</p>
+    <input placeholder="Enter Your Name"><br><br>
+    <input placeholder="email">
+    <input placeholder="number"><br>
+    <input placeholder="password">
+    <input placeholder="email">
+</body> 
+</html>
